@@ -27,3 +27,29 @@ A visual interface for querying Jira data using natural language processing. Thi
 ## Development
 
 Run in development mode: `npm run dev`
+
+## Project Structure
+
+```
+src/
+  frontend/
+    components/
+      SearchBar.jsx
+      ResultsDisplay.jsx
+      VisualizationPanel.jsx
+    services/
+      api.js
+      cache.js
+    App.jsx
+    
+  backend/
+    server.js
+    services/
+      jiraService.js
+      nlpService.js
+      cacheService.js
+    routes/
+      api.js
+    config/
+      jira.js
+```
